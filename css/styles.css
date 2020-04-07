@@ -8,6 +8,13 @@
     border-bottom: 1px ridge;
     min-height: 400px;
 }
+.d-sm-none{
+    display: none;
+}
+.r1
+{
+    margin:40px 20px 40px 20px;
+}
 .footer{
     background-color: lemonchiffon;
     margin:0px auto;
