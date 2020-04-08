@@ -11,7 +11,24 @@
 </head>
 
 <body>
-
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+        <!--fixed-bottom to fix at bottom-->
+                <div class="container">
+                    <a class="navbar-brand" href="./index.html">Rcf</a> 
+        
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="navbar-nav mr-auto"><!--mr auto will try to maintain the right margin as much as possible-->
+                        <li class="nav-item"><a class="nav-link" href="./index.html">HOME</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="#">ABOUT</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">MENU</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
+                    </ul>
+                    </div>
+                </div>
+            </nav>
     <header class="jumbotron">
         <div class="container">
             <div class="row row-header">
@@ -27,7 +44,11 @@
 
     <div class="container">
         <div class="row row-header">
-            <div>
+            <div class="container">
+                <ol class="col-12 breadcrumb">
+                    <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                    <li class="breadcrumb-item active">About Us</li>
+                </ol>
                <h3>About Us</h3>
                
             </div>
