@@ -12,6 +12,12 @@
 {
     margin:40px 20px 40px 20px;
 }
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
 .footer{
     background-color: lemonchiffon;
     margin:0px auto;
